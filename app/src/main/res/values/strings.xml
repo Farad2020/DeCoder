@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DeCoder</string>
+    <string name="fragment_name">Faraby`s DeCipherer</string>
+    <string name="plain_text">Plain Text</string>
+    <string name="caesar_shift">Caesar Shift</string>
+    <string name="vigenere_key_word">Vigenere key word</string>
+    <string name="playfair_key_word">Playfair key word</string>
+    <string name="transposition_key_word">Transposition key word</string>
+    <string name="encode">Encode</string>
+    <string name="decode">Decode</string>
+    <string name="caesar_result">Caesar Result</string>
+    <string name="vigenere_result">Vigenere Result</string>
+    <string name="playfair_result">Playfair Result</string>
+    <string name="transposition_result">Transposition Result</string>
+    <string name="hello_from_fragment_hub">Hello From Fragment Hub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="redirect_to_blowfish">Redirect To Blowfish</string>
+    <string name="redirect_to_classic_cipheres">Redirect To Classic Cipheres</string>
+    <string name="blowfish_result">Blowfish Result:</string>
+</resources>
