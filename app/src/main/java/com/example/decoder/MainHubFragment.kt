@@ -38,6 +38,13 @@ class MainHubFragment : Fragment() {
             view?.findNavController()?.navigate(action)
         }
 
+        val rsaCiphereBtn = binding.redirectToRsaBtn
+        rsaCiphereBtn.setOnClickListener {
+            val action = MainHubFragmentDirections.actionMainHubFragmentToRSAFragment()
+            // Navigate using that action
+            view?.findNavController()?.navigate(action)
+        }
+
         return binding.root
     }
 

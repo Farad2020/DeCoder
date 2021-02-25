@@ -45,5 +45,23 @@
         app:strokeWidth="2dp"
         app:icon="@drawable/ic_baseline_lock_open_24"/>
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/redirect_to_rsa_btn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/redirect_to_blowfish_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/redirect_to_rsa"
+        android:layout_marginHorizontal="8dp"
+
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:cornerRadius="8dp"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp"
+        app:icon="@drawable/ic_baseline_lock_open_24"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

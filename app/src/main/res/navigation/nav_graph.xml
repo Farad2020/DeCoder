@@ -27,5 +27,13 @@
         <action
             android:id="@+id/action_mainHubFragment_to_blowfishFragment"
             app:destination="@id/blowfishFragment" />
+        <action
+            android:id="@+id/action_mainHubFragment_to_RSAFragment"
+            app:destination="@id/RSAFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/RSAFragment"
+        android:name="com.example.decoder.RSAFragment"
+        android:label="fragment_rsa"
+        tools:layout="@layout/fragment_rsa" />
 </navigation>

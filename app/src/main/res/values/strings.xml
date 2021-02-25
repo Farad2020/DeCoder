@@ -18,4 +18,5 @@
     <string name="redirect_to_blowfish">Redirect To Blowfish</string>
     <string name="redirect_to_classic_cipheres">Redirect To Classic Cipheres</string>
     <string name="blowfish_result">Blowfish Result:</string>
+    <string name="redirect_to_rsa">Redirect To RSA</string>
 </resources>
