@@ -15,10 +15,6 @@ class RSAFragment : Fragment() {
     private var _binding: FragmentRsaBinding? = null
     private val binding get() = _binding!!
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         _binding = FragmentRsaBinding.inflate(inflater, container, false)
@@ -61,11 +57,6 @@ class RSAFragment : Fragment() {
             res += "\nDecrypted String: " + String(decrypted)
             binding.rsaResultTextView.text = res
         }
-//            val ciphere = BlowfishJava(key)
-    }
-
-    private fun decode(){
-
     }
 
 }
