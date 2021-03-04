@@ -44,8 +44,8 @@ class RSAFragment : Fragment() {
             var res = ""
             res = "Encrypting String: " + plainText
             res += "\nString in Bytes: " + RSA.bytesToString(plainText.toByteArray())
+            //TODO: change the string for the decrypted
             res += "\nDecrypting Bytes: " + RSA.bytesToString(plainText.toByteArray())
-
 
             // encrypt
             val encrypted = rsa.encrypt(plainText.toByteArray())
